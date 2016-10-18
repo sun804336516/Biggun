@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270px"
+    android:layout_height="270px">
+
+    <com.biggun.yslibrary.View.BIGGUN_MaskImageView
+        android:id="@+id/image_adapter_layout_img"
+        android:layout_width="270px"
+        android:layout_height="270px"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"/>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="540px"
+    android:layout_height="540px"
+    android:padding="30px">
+
+    <com.biggun.yslibrary.View.AutoCardView
+        android:layout_width="480px"
+        android:layout_height="480px"
+        android:foreground="?attr/selectableItemBackground"
+        app:contentPadding="20px"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="20px"
+        app:cardElevation="10px"
+        app:cardMaxElevation="20px">
+
+        <RelativeLayout
+            android:layout_width="440px"
+            android:layout_height="440px">
+
+            <TextView
+                android:id="@+id/imagedir_adapter_layout_tv"
+                android:layout_width="440px"
+                android:layout_height="60px"
+                android:gravity="center|top"
+                android:textSize="50px"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imagedir_adapter_layout_img"
+                android:layout_width="400px"
+                android:layout_height="360px"
+                android:layout_below="@id/imagedir_adapter_layout_tv"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"/>
+        </RelativeLayout>
+    </com.biggun.yslibrary.View.AutoCardView>
+</RelativeLayout>
