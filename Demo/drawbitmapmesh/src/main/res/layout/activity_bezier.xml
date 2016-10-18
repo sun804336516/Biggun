@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.biggun.drawbitmapmesh.Activity.BezierActivity">
+
+    <include
+        layout="@layout/toolbar_layout"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <com.biggun.drawbitmapmesh.View.OvalBezierView
+                android:id="@+id/oval_view"
+                android:layout_width="540px"
+                android:layout_height="wrap_content"/>
+            <com.biggun.drawbitmapmesh.View.BezierView
+                android:id="@+id/bezier_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.biggun.drawbitmapmesh.View.ClipPathView
+                android:clickable="true"
+                android:id="@+id/clip_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bezier_view"
+                app:needradius="true"
+                app:drawable="@mipmap/test6"
+                app:radius="40dp"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

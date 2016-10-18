@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.biggun.drawbitmapmesh.Activity.SecurtyActivity">
+    <include
+        layout="@layout/toolbar_layout"/>
+    <EditText
+        android:id="@+id/security_et"
+        android:layout_width="1080px"
+        android:layout_height="100px"
+        android:textColorHint="#44000000"
+        android:textColor="#ff000000"
+        android:textSize="50px"
+        android:background="@android:drawable/editbox_background"
+        android:hint="请输入要加密的数据"/>
+    <Button
+        android:id="@+id/encryptbtn"
+        android:layout_below="@id/security_et"
+        style="@style/buttonstyle"
+        android:text="加密"/>
+    <Button
+        android:id="@+id/decryptbtn"
+        android:layout_below="@id/security_et"
+        style="@style/buttonstyle"
+        android:text="解密"/>
+    <TextView
+        android:id="@+id/security_tv"
+        style="@style/buttonstyle"
+        android:layout_height="wrap_content"
+        android:hint="结果"/>
+</LinearLayout>

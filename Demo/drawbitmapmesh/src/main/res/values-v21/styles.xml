@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.base">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowBackground">@color/translucent</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+        <item name="android:windowExitAnimation">@anim/exit</item>
+        <item name="android:windowEnterAnimation">@anim/open</item>
+        <item name="android:actionMenuTextAppearance">@style/ToolBarTextSize</item>
+    </style>
+    <style name="ToolBarTextSize" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="actionMenuTextColor">@android:color/holo_red_light</item>
+    </style>
+</resources>

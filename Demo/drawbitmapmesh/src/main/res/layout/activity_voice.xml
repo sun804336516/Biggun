@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.biggun.drawbitmapmesh.Activity.VoiceActivity">
+    <Button
+        android:id="@+id/voice_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="开始语音识别"/>
+    <com.biggun.drawbitmapmesh.View.HorizontextView
+        android:id="@+id/voice_horizontaltextview"
+        android:layout_width="match_parent"
+        android:layout_below="@id/voice_start"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbHorizontal="@drawable/horizontaltextview_scrollbarstyle"/>
+    <TextView
+        android:id="@+id/voice_testTv"
+        android:layout_below="@id/voice_horizontaltextview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.biggun.drawbitmapmesh.View.SmothhRecyclerView
+        android:id="@+id/voice_rcv"
+        android:layout_below="@id/voice_horizontaltextview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

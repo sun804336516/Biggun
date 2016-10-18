@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="580px"
+        android:height="580px"
+        android:viewportHeight="580"
+        android:viewportWidth="580">
+    <group android:name="greencloths">
+        <path
+            android:name="cloths"
+            android:fillColor="@android:color/holo_green_light"
+            android:pathData="m353.70911,37.45918c-9.97223,25.299-33.95651,43.17467-62.05832,43.17467c-28.11487,0-52.10548,-17.87568-62.05528,-43.17467l-151.95117,66.42704l42.75035,103.86046l46.95311,-20.53554l0,211.74803l250.26164,0l0,-211.00073l45.26801,19.79999l42.76688,-103.86061l-151.93521,-66.43864z"></path>
+    </group>
+</vector>

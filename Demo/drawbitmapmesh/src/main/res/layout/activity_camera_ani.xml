@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.biggun.drawbitmapmesh.Activity.CameraAniActivity">
+    <Button
+        android:id="@+id/addFloatView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加桌面悬浮窗"/>
+    <Button
+        android:id="@+id/removeFloatView"
+        android:layout_toRightOf="@id/addFloatView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="移除桌面悬浮窗"/>
+
+    <ImageView
+        android:id="@+id/cameraimg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/pictextview"
+        style="@style/buttonstyle"
+        android:layout_below="@id/cameraimg"/>
+    <com.biggun.drawbitmapmesh.View.MyShimmerTextView
+        android:id="@+id/colortextview"
+        style="@style/buttonstyle"
+        android:textSize="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pictextview"/>
+    <com.biggun.drawbitmapmesh.View.MyShimmerTextView
+        android:id="@+id/colortextview2"
+        style="@style/buttonstyle"
+        android:textSize="40px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/colortextview"/>
+</RelativeLayout>

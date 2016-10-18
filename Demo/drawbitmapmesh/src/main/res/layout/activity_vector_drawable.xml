@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.biggun.drawbitmapmesh.Activity.VectorDrawableActivity">
+
+    <include
+        layout="@layout/toolbar_layout"/>
+
+    <ImageView
+        android:id="@+id/vector_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="?attr/actionBarSize"/>
+
+    <ImageView
+        android:id="@+id/vector_img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="?attr/actionBarSize"/>
+
+    <ImageView
+        android:id="@+id/vector_cloths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vector_img"/>
+
+    <ImageView
+        android:id="@+id/vector_heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/vector_img"/>
+    <ImageView
+        android:id="@+id/vector_trimpathend"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:layout_below="@id/vector_cloths"/>
+</RelativeLayout>

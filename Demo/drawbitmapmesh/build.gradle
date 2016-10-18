@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.3'
+    defaultConfig {
+        applicationId "com.biggun.drawbitmapmesh"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+//        vectorDrawables.useSupportLibrary = true
+        generatedDensities = []
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources true//剔除不需要的代码
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        _360 {
+            manifestPlaceholders(["BIGGUN": "_360"])
+        }
+        baidu {
+            manifestPlaceholders(["BIGGUN": "baidu"])
+        }
+        xiaomi {
+            manifestPlaceholders(["BIGGUN": "xiaomi"])
+        }
+    }
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile project(':qrcodelibrary')
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.alibaba:fastjson:1.2.8'
+    compile 'com.jakewharton:disklrucache:2.0.2'
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
+    //    debugCompile
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile files('libs/TencentLocationSDK_v4.5.8_r160216_1427.jar')
+    compile 'com.google.zxing:javase:3.2.1'
+    compile project(':autolayout')
+}
+/**执行结果会被详细记录在\/app\/build\/outputs\/dexcount\/debug.txt 里边
+ */
+apply plugin: 'com.getkeepsafe.dexcount'

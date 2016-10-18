@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.biggun.drawbitmapmesh.Activity.BehaviorActivty">
+
+    <include
+        layout="@layout/toolbar_layout"/>
+
+    <TextView
+        android:id="@+id/behavior_dependency"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left|top"
+        android:background="#ffff0000"
+        android:gravity="center"
+        android:text="Dependcy"/>
+
+    <TextView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/behavior_child"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|top"
+        android:background="#ffff0000"
+        android:gravity="center"
+        android:text="BehaviorChild"
+        app:layout_behavior="com.biggun.drawbitmapmesh.Animation.MyBehavior"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="60dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="left-1"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginRight="60dp"
+        app:layout_behavior="com.biggun.drawbitmapmesh.Animation.ScrollBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+
+            <TextView
+                style="@style/buttonstyle"
+                android:text="right-1"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

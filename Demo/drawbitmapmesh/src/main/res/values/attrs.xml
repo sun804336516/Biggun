@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollFlingView">
+        <attr name="shownumb" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="ClipPathView">
+        <attr name="radius" format="dimension"></attr>
+        <attr name="needradius" format="boolean"></attr>
+        <attr name="drawable" format="reference"></attr>
+    </declare-styleable>
+</resources>

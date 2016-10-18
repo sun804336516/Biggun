@@ -1,0 +1,45 @@
+<resources>
+    <style name="AppTheme.base" parent="Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowBackground">@color/translucent</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+        <item name="android:windowExitAnimation">@anim/exit</item>
+        <item name="android:windowEnterAnimation">@anim/open</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="buttonstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100px</item>
+        <item name="android:layout_marginTop">20px</item>
+        <item name="android:textSize">60px</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="windwbackground">
+        <item name="android:windowBackground">@color/translucent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    
+    <style name="ToolBarTextSize" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textSize">15sp</item>
+        <item name="actionMenuTextColor">@android:color/holo_red_light</item>
+    </style>
+</resources>

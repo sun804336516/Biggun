@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.biggun.drawbitmapmesh.Activity.SilentinstallActivity">
+    <TextView
+        android:id="@+id/apkpathTv"
+        style="@style/buttonstyle"
+        android:text="apkPath:"/>
+    <Button
+        android:id="@+id/select_apkpath"
+        style="@style/buttonstyle"
+        android:text="选择安装包"/>
+    <Button
+        android:id="@+id/opensilentinstall"
+        style="@style/buttonstyle"
+        android:text="开启静默安装"/>
+    <Button
+        android:id="@+id/silentinstallbtn"
+        style="@style/buttonstyle"
+        android:text="静默安装"/>
+    <Button
+        android:id="@+id/secondinstallbtn"
+        style="@style/buttonstyle"
+        android:text="秒装"/>
+</LinearLayout>

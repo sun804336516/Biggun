@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">嘻嘻</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_init">InitActivity</string>
+    <string name="autoinstall">我的智能安装服务</string>
+    <string name="title_activity_test_memory">TestMemoryActivity</string>
+</resources>

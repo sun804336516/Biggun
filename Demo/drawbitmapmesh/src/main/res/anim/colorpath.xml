@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:duration="1000"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueType="intType"
+        android:propertyName="fillColor"
+        android:valueFrom="#ffff0000"
+        android:valueTo="#ff0000ff"/>
+</set>

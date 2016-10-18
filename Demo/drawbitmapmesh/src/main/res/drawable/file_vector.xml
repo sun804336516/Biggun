@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="50px"
+        android:height="50px"
+        android:viewportHeight="1024"
+        android:viewportWidth="1024">
+    <path
+        android:name="file"
+        android:fillColor="#eb4f38"
+        android:pathData="M862 302q7 7 14 18l-236 0 0-236q11 7 18 14zm-238 82l272 0 0 528q0 20-14 34t-34 14l-672 0q-20 0-34-14t-14-34l0-800q0-20 14-34t34-14l400 0 0 272q0 20 14 34t34 14zm80 368l0-32q0-7-4.5-11.5t-11.5-4.5l-352 0q-7 0-11.5 4.5t-4.5 11.5l0 32q0 7 4.5 11.5t11.5 4.5l352 0q7 0 11.5-4.5t4.5-11.5zm0-128l0-32q0-7-4.5-11.5t-11.5-4.5l-352 0q-7 0-11.5 4.5t-4.5 11.5l0 32q0 7 4.5 11.5t11.5 4.5l352 0q7 0 11.5-4.5t4.5-11.5zm0-128l0-32q0-7-4.5-11.5t-11.5-4.5l-352 0q-7 0-11.5 4.5t-4.5 11.5l0 32q0 7 4.5 11.5t11.5 4.5l352 0q7 0 11.5-4.5t4.5-11.5z"
+        />
+        <!--android:strokeColor="#eb4f38"-->
+        <!--android:strokeWidth="1"-->
+    <!--android:pathData="m245.74843,299.75l9.80215,-39.86835l39.19942,-9.9668l-49.00157,49.83514l-244.99843,0l0,-299l294,0l0,249.16486"-->
+
+</vector>

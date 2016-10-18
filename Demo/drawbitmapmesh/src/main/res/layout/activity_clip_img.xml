@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_clip_img"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.biggun.drawbitmapmesh.Activity.ClipImgActivity">
+
+    <com.biggun.drawbitmapmesh.View.BIGGUN_ClipImageView
+        android:id="@+id/clip_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:clip_rect="circle"
+        android:src="@drawable/clip"/>
+
+    <ImageView
+        android:id="@+id/clip_show"
+        android:layout_marginTop="20px"
+        android:layout_width="200px"
+        android:layout_height="200px"/>
+
+    <Button
+        android:id="@+id/clip_btn"
+        android:text="剪裁"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:id="@+id/clip_btn2"
+        android:text="切换模式"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/clip_btn"/>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.biggun.drawbitmapmesh.Activity.CanvasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            style="@style/buttonstyle"
+            android:gravity="center_horizontal"
+            android:text="Canvas--------------Text"/>
+        <com.biggun.drawbitmapmesh.View.CanvasView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            style="@style/buttonstyle"
+            android:gravity="center_horizontal"
+            android:text="Region--------------Text"/>
+        <com.biggun.drawbitmapmesh.View.RegionView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            style="@style/buttonstyle"
+            android:text="PathView"/>
+        <com.biggun.drawbitmapmesh.View.PathView
+            android:id="@+id/pathview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</ScrollView>

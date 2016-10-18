@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_add"
+          android:title="ADD"
+          app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/menu_del"
+          android:title="DEL"
+          app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/menu_xixi"
+          android:title="XIXI"
+          app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/menu_biggun"
+          android:title="BIGGUN"
+          app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/menu_sxw"
+          android:title="SXW"
+          app:showAsAction="ifRoom"></item>
+    <item android:id="@+id/menu_wdq"
+          android:title="WDQ"
+          app:showAsAction="ifRoom"></item>
+</menu>
