@@ -1,0 +1,1 @@
+通过FileColums获取自定义类型文件的demo
